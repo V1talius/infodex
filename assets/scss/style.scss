@@ -92,6 +92,31 @@ img {
 	position: relative;
 }
 
+#main-slider {
+
+	.sp-slide {
+		h1 {
+			font-family: Montserrat;
+			font-style: normal;
+			font-weight: bold;
+			line-height: normal;
+			font-size: 60px;
+			text-align: center;
+			color: #FFFFFF;
+		}
+
+		p {
+			font-family: Montserrat;
+			font-style: normal;
+			font-weight: 300;
+			line-height: 27px;
+			font-size: 18px;
+			text-align: center;
+			color: #FFFFFF;
+		}
+	}
+}
+
 .main__header {
 
 
@@ -214,11 +239,11 @@ img {
 .main__footer {
 	background-color: #1E1E1E;
 	h6 {
-		color: #FFFFFF; 
+		color: #FFFFFF;
 		text-transform: uppercase;
 		font-weight: 500;
 	}
-	
+
 		.logo {
 			max-width: 155px;
 
@@ -242,11 +267,11 @@ img {
 		align-items: center;
 		justify-content: row;
 		margin-top: 30px;
-		
+
 		i {
 			font-size: 20px;
 			color: $primary-color;
-			margin-right: 10px;	
+			margin-right: 10px;
 		}
 
 		.address {
@@ -257,7 +282,7 @@ img {
 		.phone {
 			display: flex;
 			flex-direction: column;
-		}	
+		}
 
 		span {
 			font-weight: 300;
@@ -268,7 +293,7 @@ img {
 	}
 	.news {
 		margin-top: 30px;
-		
+
 		p {
 			color: #FFFFFF;
 			font-size: 18px;
@@ -279,21 +304,21 @@ img {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 14px;
 		}
-	
+
 
 	}
 	.links {
 		margin-top: 30px;
-		
+
 		ul {
 			margin: 0px;
 			padding: 0px;
 			list-style: none;
-			
+
 			li {
 				display: flex;
 				font-weight: 600;
-				
+
 				a {
 				color: white;
 				transition: all 0.3s;
@@ -306,25 +331,45 @@ img {
 				}
 				}
 			}
-			
+
+		}
+	}
+
+	.link-item {
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+
+			li {
+				width: 50%;
+			}
 		}
 	}
 	.row__inner {
 		display: flex;
 		justify-content: space-between;
 		padding: 30px 0px;
-		
+
+		@media (max-width: 992px) {
+			flex-direction: column;
+			justify-content: center;
+		}
+
 		span {
 			font-weight: 300;
 			line-height: 29px;
 			font-size: 16px;
 			color:  #A3A3A3;
+
+			@media (max-width: 992px) {
+				text-align: center;
+			}
 		}
 	}
 	.footer_inner {
 		background: #151515;
 	}
-		
 
-}	
+
+}
 
