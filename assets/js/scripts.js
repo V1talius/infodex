@@ -19,4 +19,33 @@ jQuery( document ).ready( function( $ ) {
 		}
 	} );
 
+	var $tabs         = $( '.tabs' ),
+		$controlItems = $tabs.find( '.tabs__control-item'),
+		$contentItems = $tabs.find( '.tabs__content-item');
+
+		$controlItems.on( 'click', function() {
+			var $this = $( this ),
+				index = $this.data( 'index' );
+
+			switchContent( index );
+		} );
+
+	function switchContent( jopa ) {
+
+		$contentItems.each( function( index ) {
+			var $this = $( this );
+
+			if ( index === jopa ) {
+				$this.addClass( 'active-content' );
+				$controlItems.eq( index ).addClass( 'active-control' );
+			} else {
+				$this.removeClass( 'active-content' );
+				$controlItems.eq( index ).removeClass( 'active-control' );
+			}
+
+		} );
+	}
+
+	switchContent( 1 );
+
 } );
