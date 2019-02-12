@@ -47,7 +47,11 @@ h2 {
 }
 
 h3 {
-
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 34px;
+	font-size: 24px;
 }
 
 h4 {
@@ -486,28 +490,35 @@ img {
 }
 
 .section-3 {
+	padding: 60px 0;
 	background-color: #F6F6F6;
 
-	
-	.row__inner {
+	.services-list {
+		padding-top: 30px;
+	}
+
+	.row__item {
 		display: flex;
 		flex-direction: row;
+		align-items: flex-start;
+		justify-content: center;
 
-			.row__item {
-				display: flex;
-				flex-direction: row;
-				align-items: center;
-				justify-content: center;
-				span {
-					font-weight: 600;
-					line-height: normal;
-					font-size: 80px;
-					color: #C4C4C4;
-				}
-			}
-	}   
-		
-	
+		span {
+			font-weight: 600;
+			line-height: normal;
+			font-size: 80px;
+			line-height: 60px;
+			color: #C4C4C4;
+			margin-right: 15px;
+		}
+
+		h3 {
+			margin: 0;
+		}
+
+	}
+
+
 }
 
 .section-7 {
