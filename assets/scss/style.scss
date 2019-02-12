@@ -486,7 +486,28 @@ img {
 }
 
 .section-3 {
+	background-color: #F6F6F6;
 
+	
+	.row__inner {
+		display: flex;
+		flex-direction: row;
+
+			.row__item {
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: center;
+				span {
+					font-weight: 600;
+					line-height: normal;
+					font-size: 80px;
+					color: #C4C4C4;
+				}
+			}
+	}   
+		
+	
 }
 
 .section-7 {
