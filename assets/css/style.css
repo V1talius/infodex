@@ -484,6 +484,89 @@ img {
       z-index: 1;
       left: -80px; }
 
+.section-4 {
+  padding: 70px 0; }
+  .section-4 .headline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center; }
+    .section-4 .headline h2:before {
+      width: 40px;
+      height: 3px; }
+    .section-4 .headline h2:after {
+      left: 55px; }
+  .section-4 .content {
+    padding-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .section-4 .content .name {
+      font-weight: 600;
+      line-height: normal;
+      font-size: 24px;
+      color: #151515;
+      padding-top: 30px; }
+      .section-4 .content .name:hover {
+        color: #1079F5; }
+    .section-4 .content span {
+      padding-top: 8px;
+      font-weight: 300;
+      color: #151515; }
+    .section-4 .content .social-list {
+      padding-top: 10px; }
+      .section-4 .content .social-list a {
+        color: #C3C3C3; }
+        .section-4 .content .social-list a:hover {
+          color: #1079F5; }
+  .section-4 .button__inner {
+    padding-top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .section-4 .button__inner .button {
+      background-color: #1079F5;
+      color: white;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      padding: 15px 40px;
+      -webkit-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+      .section-4 .button__inner .button:hover {
+        color: white;
+        background-color: #242424;
+        text-decoration: none; }
+      @media (max-width: 992px) {
+        .section-4 .button__inner .button {
+          padding: 20px 30px; } }
+
 .section-7 {
   padding: 70px 0; }
   .section-7 .content {
