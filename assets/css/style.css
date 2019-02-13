@@ -506,6 +506,14 @@ img {
       height: 3px; }
     .section-4 .headline h2:after {
       left: 55px; }
+  .section-4 .images {
+    padding-bottom: 20px; }
+    .section-4 .images:hover {
+      background: #FFFFFF;
+      -webkit-box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.08);
+              box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.08);
+      -webkit-transform: translate(30px, 30px);
+              transform: translate(30px, 30px); }
   .section-4 .content {
     padding-top: 30px;
     display: -webkit-box;
@@ -556,7 +564,7 @@ img {
       font-size: 12px;
       font-weight: 600;
       text-transform: uppercase;
-      padding: 15px 40px;
+      padding: 15px 50px;
       -webkit-transition: all 0.3s ease;
       transition: all 0.3s ease; }
       .section-4 .button__inner .button:hover {
