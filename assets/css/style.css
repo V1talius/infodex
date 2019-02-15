@@ -64,6 +64,21 @@ img {
   width: 100%;
   height: auto; }
 
+.button__inner {
+  background-color: #1079F5;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 15px 50px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border-radius: 5px; }
+  .button__inner:hover {
+    color: white;
+    background-color: #242424;
+    text-decoration: none; }
+
 .social-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -618,26 +633,18 @@ img {
     .section-5 .courses__item .buy {
       padding-top: 5px; }
       .section-5 .courses__item .buy .month {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
         font-weight: 600;
         padding-bottom: 35px; }
       .section-5 .courses__item .buy .size {
         font-weight: 600;
         font-size: 36px;
         color: #1079F5; }
-      .section-5 .courses__item .buy .button__inner {
-        background-color: #1079F5;
-        color: white;
-        font-size: 14px;
-        font-weight: 600;
-        text-transform: uppercase;
-        padding: 15px 50px;
-        -webkit-transition: all 0.3s ease;
-        transition: all 0.3s ease;
-        border-radius: 5px; }
-        .section-5 .courses__item .buy .button__inner:hover {
-          color: white;
-          background-color: #242424;
-          text-decoration: none; }
   .section-5 .button {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -645,10 +652,15 @@ img {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    color: #151515;
+    background-color: #1079F5;
+    background-color: #1079F5;
+    color: white;
+    font-size: 14px;
     font-weight: 600;
-    border: 1px solid #1079F5;
+    text-transform: uppercase;
     padding: 15px 50px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
     border-radius: 5px; }
 
 .section-7 {
