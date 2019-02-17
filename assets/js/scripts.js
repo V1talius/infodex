@@ -19,6 +19,15 @@ jQuery( document ).ready( function( $ ) {
 		}
 	} );
 
+	var swiper = new Swiper('.swiper-container', {
+		slidesPerView: 2,
+		spaceBetween: 30,
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+		},
+	});
+
 	var $tabs         = $( '.tabs' ),
 		$controlItems = $tabs.find( '.tabs__control-item'),
 		$contentItems = $tabs.find( '.tabs__content-item');
