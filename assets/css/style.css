@@ -34,7 +34,13 @@ h2 {
     margin-right: 10px;
     background-color: #1079F5; }
   h2.centered {
-    text-align: center; }
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
     h2.centered:after {
       content: '';
       display: block;
@@ -681,7 +687,7 @@ img {
         text-decoration: none; }
 
 .section-6 {
-  background-color: #3399ff; }
+  background-color: #1079F5; }
   .section-6 .features__item {
     padding: 60px 0 60px;
     display: -webkit-box;
@@ -775,3 +781,22 @@ img {
       display: none; }
       .section-7 .tabs__content-item.active-content {
         display: block; }
+
+.section-9 {
+  background-color: #1079F5;
+  padding: 40px 0px 40px; }
+
+.section-10 .centered {
+  padding: 80px 0px 20px; }
+  .section-10 .centered .patern {
+    margin-left: -6%; }
+.section-10 .gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }

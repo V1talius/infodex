@@ -40,6 +40,8 @@ h2 {
 
 	&.centered {
 		text-align: center;
+		display: flex;
+		justify-content: center;
 
 		&:after {
 			content:'';
@@ -743,7 +745,7 @@ img {
 }
 	
 .section-6 { 
-		background-color: #3399ff;
+		background-color: #1079F5;
 	
 	.features__item {
 		padding: 60px 0 60px;
@@ -760,7 +762,9 @@ img {
 			height: 120px;
 			margin-left: 127px;
 		}
-   
+   		
+
+
 
 	}
 	
@@ -856,5 +860,21 @@ img {
 		}
 	}
 }
+.section-9 {
+	background-color: #1079F5;
+	padding: 40px 0px 40px;
+}
 
-
+.section-10 {
+	.centered {
+		padding: 80px 0px 20px;
+		.patern {
+			margin-left: -6%;
+		}
+	}
+	.gallery {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+}
