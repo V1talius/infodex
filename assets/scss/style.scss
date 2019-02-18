@@ -94,28 +94,10 @@ img {
 	height: auto;
 }
 
-.button__buynow {
-	background-color:  #1079F5;
-	color: white;
-	font-size: 14px;
-	font-weight: 600;
-	text-transform: uppercase;
-	padding: 15px 50px;
-	transition: all 0.3s ease;
-	border-radius: 5px;
-
-
-	&:hover {
-		color: white;
-		background-color: #242424;
-		text-decoration: none;
-	}
-}
 
 .button {
 	background-color:  #1079F5;
 	color: white;
-	width: 263px;
 	font-size: 14px;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -908,6 +890,15 @@ img {
 				}
 			}
 		}
+
+	}
+	.testimonials__title {
+		p {
+			display: flex;
+			justify-content: center;
+			text-align: center;
+		}
+		
 	}
 
 	.testimonials__item {
@@ -927,7 +918,12 @@ img {
 		p {
 			text-align: center;
 		}
-
+		
+		.name {
+			font-weight: 600;
+			color: #1079F5;
+			font-size: 18px;
+		}
 	}
 }
 
@@ -944,6 +940,7 @@ img {
 
 		.patern {
 			margin-left: -6%;
+			transform: translateX(-5%)
 		}
 	}
 
@@ -1009,5 +1006,10 @@ img {
 				}
 			}
 		}
+	}
+	.view_all {
+		display: flex;
+		justify-content: center;
+		margin: 25px 0px 60px;
 	}
 }
