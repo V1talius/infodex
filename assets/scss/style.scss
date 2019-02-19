@@ -1013,3 +1013,67 @@ img {
 		margin: 25px 0px 60px;
 	}
 }
+.section-11 {
+	background: #F6F6F6;
+	padding: 100px 0px 100px; 
+		.plans {
+			p {
+				text-align: center;
+				padding-bottom: 30px;
+			}
+		}
+	.prising {
+		background-color: white;
+		p {
+			text-align: center;
+			color: #5A5A5A;
+			flex: 1 1 auto;
+			padding-top: 20px;
+		}
+
+		&__inner {
+			display: flex;
+			justify-content: center;
+			background-color: #1079F5;
+			padding: 15px 0px 15px;
+				h3 {
+					color: white;
+				}
+		}
+
+	}	
+	
+	.price {
+		padding-top: 10px;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+			&__inner {
+				padding: 10px 0px 10px;
+				font-weight: 600;
+				line-height: normal;
+				font-size: 36px;
+				color: #151515;
+			}
+			.access {
+				font-size: 18px;
+				color: #151515;
+				padding-bottom: 20px;
+				font-weight: 400;
+			}
+			&:after {
+				content:'';
+				display: block;
+				width: 35px;
+				height: 3px;
+				margin-right: 10px;
+				background-color: #1079F5;
+			}
+				
+	}
+	.buy__now {
+		display: flex;
+		justify-content: center;
+		padding: 50px 0px 50px;
+	}
+}
