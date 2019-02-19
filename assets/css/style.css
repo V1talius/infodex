@@ -914,13 +914,21 @@ img {
     text-align: center;
     padding-bottom: 30px; }
   .section-11 .prising {
-    background-color: white; }
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    margin: 0px 15px 0px; }
+    .section-11 .prising:hover {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+      -webkit-box-shadow: 0px 1px 32px 3px rgba(189, 189, 189, 0.75);
+              box-shadow: 0px 1px 32px 3px rgba(189, 189, 189, 0.75); }
     .section-11 .prising p {
       text-align: center;
       color: #5A5A5A;
       -webkit-box-flex: 1;
-          -ms-flex: 1 1 auto;
-              flex: 1 1 auto;
+          -ms-flex: auto;
+              flex: auto;
       padding-top: 20px; }
     .section-11 .prising__inner {
       display: -webkit-box;
