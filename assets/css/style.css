@@ -979,3 +979,28 @@ img {
         -ms-flex-pack: center;
             justify-content: center;
     padding: 50px 0px 50px; }
+
+.section-12 {
+  background: #F6F6F6;
+  padding: 100px 0px 100px; }
+  .section-12 .contact .patern {
+    left: -15%; }
+  .section-12 #appointment-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 30px 100px 0px 0px; }
+    .section-12 #appointment-form input[type="text"],
+    .section-12 #appointment-form input[type="email"],
+    .section-12 #appointment-form textarea {
+      border: 1px solid #E7E7E7;
+      background-color: transparent;
+      color: #5A5A5A;
+      padding: 10px 15px;
+      margin-bottom: 30px; }
+  .section-12 .send {
+    padding-top: 30px; }

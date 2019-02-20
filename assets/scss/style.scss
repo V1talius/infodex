@@ -1016,6 +1016,7 @@ img {
 .section-11 {
 	background: #F6F6F6;
 	padding: 100px 0px 100px; 
+
 		.plans {
 			p {
 				text-align: center;
@@ -1047,9 +1048,7 @@ img {
 				h3 {
 					color: white;
 				}
-		}
-
-		
+		}	
 
 	}	
 	
@@ -1086,4 +1085,36 @@ img {
 		justify-content: center;
 		padding: 50px 0px 50px;
 	}
+}
+
+
+.section-12 {
+		background: #F6F6F6;
+		padding: 100px 0px 100px;
+
+	.contact {
+		.patern {
+			left: -15%;
+		}
+	}
+
+	#appointment-form {
+		display: flex;
+		flex-direction: column;
+		padding: 30px 100px 0px 0px;
+
+		input[type="text"],
+		input[type="email"],
+		textarea {
+			border: 1px solid #E7E7E7;
+			background-color: transparent;
+			color: #5A5A5A;
+			padding: 10px 15px;
+			margin-bottom: 30px;
+		}
+	}
+	.send {
+		padding-top: 30px;
+	}
+ 	
 }
