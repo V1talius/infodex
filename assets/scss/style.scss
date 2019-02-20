@@ -1087,8 +1087,56 @@ img {
 	}
 }
 
-
 .section-12 {
+	padding: 100px 0px 100px;
+
+		.schedule {
+			p {
+				text-align: center;
+				padding-bottom: 20px;
+			}
+		}
+	.row {
+		padding: 15px 0px 15px;
+
+		.time {
+			font-weight: 600;
+			line-height: 26px;
+			font-size: 18px;
+			text-align: center;
+			color: #151515;
+			padding-left: 40px;
+
+		}
+		.breakpoint {
+			font-weight: 600;
+			line-height: 23px;
+			font-size: 16px;
+			letter-spacing: 0.05em;
+			text-transform: uppercase;
+			color: #151515;
+		}
+		.staff {
+			display: flex;
+			flex-direction: column;
+
+			.description {
+				font-weight: bold;
+				line-height: 45px;
+				font-size: 32px;
+				color: #151515;
+				padding: 10px 0px 20px;
+			}
+		}
+	}
+	
+	
+
+}
+
+
+
+.section-13 {
 		background: #F6F6F6;
 		padding: 100px 0px 100px;
 
