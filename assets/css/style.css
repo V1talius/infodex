@@ -712,7 +712,7 @@ img {
       width: 2px;
       height: 120px;
       right: 0; }
-    .section-6 .features__item.jopa:before {
+    .section-6 .features__item.inner:before {
       display: none; }
   .section-6 span {
     font-weight: 600;
@@ -984,16 +984,16 @@ img {
   padding: 100px 0px 100px; }
   .section-12 .schedule p {
     text-align: center;
-    padding-bottom: 20px; }
+    padding-bottom: 30px; }
   .section-12 .row {
-    padding: 15px 0px 15px; }
+    padding: 15px 115px 15px 30px;
+    border-bottom: 1px solid #DFDFDF; }
     .section-12 .row .time {
       font-weight: 600;
       line-height: 26px;
       font-size: 18px;
       text-align: center;
-      color: #151515;
-      padding-left: 40px; }
+      color: #151515; }
     .section-12 .row .breakpoint {
       font-weight: 600;
       line-height: 23px;

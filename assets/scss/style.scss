@@ -766,7 +766,7 @@ img {
 			right: 0
 		}
 
-		&.jopa {
+		&.inner {
 			&:before {
 				display: none;
 			}
@@ -1091,13 +1091,18 @@ img {
 	padding: 100px 0px 100px;
 
 		.schedule {
+
 			p {
 				text-align: center;
-				padding-bottom: 20px;
+				padding-bottom: 30px;
 			}
+			
 		}
+
+
 	.row {
-		padding: 15px 0px 15px;
+		padding: 15px 115px 15px 30px;
+		border-bottom: 1px solid #DFDFDF;
 
 		.time {
 			font-weight: 600;
@@ -1105,7 +1110,8 @@ img {
 			font-size: 18px;
 			text-align: center;
 			color: #151515;
-			padding-left: 40px;
+			
+
 
 		}
 		.breakpoint {
