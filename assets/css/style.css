@@ -1002,6 +1002,12 @@ img {
       z-index: 1;
       -webkit-transform: translate(30px, 30px);
               transform: translate(30px, 30px); }
+    .section-12 .avatar__img.hoover:before {
+      -webkit-transform: translate(-30px, 30px);
+              transform: translate(-30px, 30px); }
+    .section-12 .avatar__img.reedr:before {
+      -webkit-transform: translate(-30px, 30px);
+              transform: translate(-30px, 30px); }
   .section-12 .speakers {
     padding-bottom: 30px; }
     .section-12 .speakers p {

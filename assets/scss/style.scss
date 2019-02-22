@@ -1113,6 +1113,18 @@ img {
 				z-index: 1;
 				transform: translate(30px, 30px);
 			}
+
+			&.hoover {
+				&:before {
+					transform: translate(-30px, 30px);
+				}
+			}
+
+			&.reedr {
+				&:before {
+					transform: translate(-30px, 30px);
+				}
+			}
 		}
 	
 	.speakers {
@@ -1132,7 +1144,6 @@ img {
 		margin-left: 80px;
 		padding-right: 100px;
 		
-
 		&.hoover {
 			padding: 50px 20px 0px 270px; 
 		}
