@@ -898,7 +898,7 @@ img {
 			justify-content: center;
 			text-align: center;
 		}
-		
+
 	}
 
 	.testimonials__item {
@@ -918,7 +918,7 @@ img {
 		p {
 			text-align: center;
 		}
-		
+
 		.name {
 			font-weight: 600;
 			color: #1079F5;
@@ -1015,28 +1015,40 @@ img {
 }
 .section-11 {
 	background: #F6F6F6;
-	padding: 100px 0px 100px; 
+	padding: 100px 0px 100px;
 
-		.plans {
-			p {
-				text-align: center;
-				padding-bottom: 30px;
-			}
+	.plans {
+		p {
+			text-align: center;
+			padding-bottom: 30px;
 		}
+	}
+
 	.prising {
 
 		background-color: white;
 		transition: 0.4s;
-		margin: 0px 15px 0px;
+		margin: 15px;
+
 		&:hover {
-			transform: scale(1.1);
-			box-shadow: 0px 1px 32px 3px rgba(189,189,189,0.75); 
+			box-shadow: 0px 1px 32px 3px rgba(189,189,189,0.75);
+
+			.prising__inner {
+				background-color: #242424;
+			}
+		}
+
+		&.regular {
+			margin-top: 0;
+			margin-bottom: 0;
+			height: 100%;
+			box-shadow: 0px 1px 32px 3px rgba(189,189,189,0.75);
 		}
 
 		p {
 			text-align: center;
 			color: #5A5A5A;
-			flex: auto; 
+			flex: auto;
 			padding-top: 20px;
 		}
 
@@ -1045,13 +1057,15 @@ img {
 			justify-content: center;
 			background-color: #1079F5;
 			padding: 15px 0px 15px;
-				h3 {
-					color: white;
-				}
-		}	
+			transition: all 0.3s;
 
-	}	
-	
+			h3 {
+				color: white;
+			}
+		}
+
+	}
+
 	.price {
 		padding-top: 10px;
 		display: flex;
@@ -1078,7 +1092,7 @@ img {
 				margin-right: 10px;
 				background-color: #1079F5;
 			}
-				
+
 	}
 	.buy__now {
 		display: flex;
@@ -1090,43 +1104,6 @@ img {
 	padding: 100px 0px;
 	background: #F6F6F6;
 
-	.row {
-		padding-bottom: 100px;
-	}
-
-	.avatar__img {
-			position: relative;
-
-			img {
-				position: relative;
-				z-index: 2;
-			}
-
-			&:before {
-				content: '';
-				display: block;
-				position: absolute;
-				background-color: white;
-				width: 100%;
-				height: 100%;
-				box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.08);
-				z-index: 1;
-				transform: translate(30px, 30px);
-			}
-
-			&.hoover {
-				&:before {
-					transform: translate(-30px, 30px);
-				}
-			}
-
-			&.reedr {
-				&:before {
-					transform: translate(-30px, 30px);
-				}
-			}
-		}
-	
 	.speakers {
 		padding-bottom: 30px;
 
@@ -1138,23 +1115,37 @@ img {
 			color: #151515;
 		 }
 	}
+
+
+	.avatar__img {
+		position: relative;
+
+		img {
+			position: relative;
+			height: 100%;
+			z-index: 2;
+		}
+
+		&:before {
+			content: '';
+			display: block;
+			position: absolute;
+			background-color: white;
+			width: 100%;
+			height: 100%;
+			box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.08);
+			z-index: 1;
+			transform: translate(30px, 30px);
+		}
+
+	}
+
 	.speaker__info {
 		display: flex;
 		flex-direction: column;
-		margin-left: 80px;
-		padding-right: 100px;
-		
-		&.hoover {
-			padding: 50px 20px 0px 270px; 
-		}
-
-		&.collins {
-			padding: 50px 0px 0px 0px;
-		}
-
-		&.reedr {
-			padding: 20px 20px 0px 180px; 
-		}
+		justify-content: center;
+		width: 40%;
+		height: 100%;
 
 		.name {
 			font-weight: 600;
@@ -1164,6 +1155,7 @@ img {
 			padding: 30px 0px 5px;
 
 		}
+
 		.position {
 			font-weight: 300;
 			line-height: normal;
@@ -1194,7 +1186,7 @@ img {
 			justify-content: flex-start;
 			padding-top: 15px;
 
-			li { 
+			li {
 				margin: 0px 15px 0px 0px;
 
 				a {
@@ -1206,10 +1198,45 @@ img {
 
 				}
 			}
-			
+
 		}
 
 
+	}
+
+	.speakers-list {
+		.speaker__item {
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+			padding-bottom: 130px;
+
+			&:nth-child(2n+1) {
+				.speaker__info {
+					padding-left: 70px;
+				}
+			}
+
+			&:nth-child(2n) {
+				justify-content: flex-end;
+
+				.avatar__img {
+					order: 2;
+					&:before {
+						transform: translate(-30px, 30px);
+					}
+				}
+				.speaker__info {
+					order: 1;
+					padding-right: 70px;
+				}
+			}
+
+			&:last-child {
+				padding-bottom: 0;
+			}
+
+		}
 	}
 
 }
@@ -1224,7 +1251,7 @@ img {
 				text-align: center;
 				padding-bottom: 30px;
 			}
-			
+
 		}
 
 
@@ -1238,7 +1265,7 @@ img {
 			font-size: 18px;
 			text-align: center;
 			color: #151515;
-			
+
 
 
 		}
@@ -1263,8 +1290,8 @@ img {
 			}
 		}
 	}
-	
-	
+
+
 
 }
 
@@ -1298,5 +1325,28 @@ img {
 	.send {
 		padding-top: 30px;
 	}
- 	
+
 }
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-template-areas: "image-1 image-3" "image-2 image-3";
+
+	.image {
+		margin: 20px;
+	}
+
+	img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+}
+
+.image-1 { grid-area: image-1; }
+
+.image-2 { grid-area: image-2; }
+
+.image-3 { grid-area: image-3; }
