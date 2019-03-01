@@ -1239,36 +1239,50 @@ img {
     .section-16 .certificates .image__certificat {
       display: -webkit-box;
       display: -ms-flexbox;
-      display: flex; }
+      display: flex;
+      padding-right: 20px; }
       .section-16 .certificates .image__certificat .cover {
+        width: 200px;
+        height: 153px;
         position: absolute;
-        background-color: rgba(0, 0, 0, 0.4);
+        background: #1079F5;
         opacity: 0;
-        -webkit-transition: all 0.3s;
-        transition: all 0.3s;
-        z-index: 1;
-        width: 100%;
-        height: 100%; }
-      .section-16 .certificates .image__certificat i {
-        color: white;
-        position: relative;
-        left: 107px;
-        top: 70px; }
-      .section-16 .certificates .image__certificat img {
-        margin-right: 25px;
-        height: 100%; }
-  .section-16 .history__item .history__info {
-    border-bottom: 1px solid #DFDFDF;
-    padding: 20px 0px; }
-    .section-16 .history__item .history__info .title {
-      padding-bottom: 15px; }
-      .section-16 .history__item .history__info .title .data {
-        font-weight: 600;
-        line-height: 35px;
-        font-size: 24px;
-        color: #1079F5; }
-      .section-16 .history__item .history__info .title .stages {
-        font-weight: 600;
-        line-height: 35px;
-        font-size: 24px;
-        color: #151515; }
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+        .section-16 .certificates .image__certificat .cover i {
+          position: relative;
+          left: 93px;
+          top: 67px;
+          color: white; }
+    .section-16 .certificates .image__certificat:hover .cover {
+      opacity: 0.6; }
+  .section-16 .history__item {
+    border-left: 1px solid #DFDFDF;
+    padding-left: 70px; }
+    .section-16 .history__item .history__info {
+      border-bottom: 1px solid #DFDFDF;
+      padding: 20px 0px; }
+      .section-16 .history__item .history__info.inner {
+        border-bottom: none; }
+      .section-16 .history__item .history__info .title {
+        padding-bottom: 15px; }
+        .section-16 .history__item .history__info .title .patern {
+          content: '';
+          display: block;
+          width: 19px;
+          height: 19px;
+          border-radius: 50%;
+          background-color: #1079F5;
+          position: absolute;
+          left: 7px;
+          border: 3px red; }
+        .section-16 .history__item .history__info .title .data {
+          font-weight: 600;
+          line-height: 35px;
+          font-size: 24px;
+          color: #1079F5; }
+        .section-16 .history__item .history__info .title .stages {
+          font-weight: 600;
+          line-height: 35px;
+          font-size: 24px;
+          color: #151515; }
