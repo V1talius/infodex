@@ -18,6 +18,8 @@
 
 		<link rel="stylesheet" href="./assets/css/lib/swiper/swiper.min.css"/>
 
+		<link rel="stylesheet" href="./assets/css/lib/fancybox/jquery.fancybox.min.css" rel="stylesheet">
+
 		<link rel="stylesheet" href="./assets/css/style.css">
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -1053,7 +1055,7 @@
 					<div class="row">
 						<div class="col-12 col-lg-6">
 							<div class="history__head">
-								<h2>Our History<span class="patern"></span></h2>
+								<h2 class="tada">Our History<span class="patern"></span></h2>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod aliqua. Ut enim ad minim veniam.</p>
 								<p>Elementum nibh tellus molestie nunc non blandit massa enim. Pretium aenean pharetra magna ac placerat vestibulum lectus.</p>
 							</div>
@@ -1061,18 +1063,18 @@
 								<span>Our Certificates</span>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod aliqua. Ut enim ad minim.</p>
 								<div class="certificates__item">
-									<div class="image__certificat">
+									<a class="image__certificat" data-fancybox="gallery" href="./assets/images/tiles-1.png">
 										<div class="cover">
-											<a href="#"><i class="fas fa-plus"></i></a>
-										</div>	
+											<i class="fas fa-plus"></i>
+										</div>
 										<img src="./assets/images/certificate.png" alt="">
-									</div>
-									<div class="image__certificat">
+									</a>
+									<a class="image__certificat" data-fancybox="gallery" href="./assets/images/tiles-1.png">
 										<div class="cover">
-											<a href="#"><i class="fas fa-plus"></i></a>
-										</div>	
+											<i class="fas fa-plus"></i>
+										</div>
 										<img src="./assets/images/certificate.png" alt="">
-									</div>
+									</a>
 								</div>
 							</div>
 						</div>
@@ -1110,7 +1112,14 @@
 									</div>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod aliqua. Ut enim ad minim veniam.</p>
 								</div>
-
+								<div class="history__info inner">
+									<div class="title">
+										<span class="data">2017-2018.</span>
+										<span class="stages">Worldwide Recognition</span>
+										<span class="patern"></span>
+									</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod aliqua. Ut enim ad minim veniam.</p>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -1218,6 +1227,7 @@
 		<script src="./assets/js/jquery-1.11.0.min.js"></script>
 		<script src="./assets/js/lib/slider-pro/jquery.sliderPro.min.js"></script>
 		<script src="./assets/js/lib/swiper/swiper.min.js"></script>
+		<script src="./assets/js/lib/fancybox/jquery.fancybox.min.js"></script>
 		<script src="./assets/js/scripts.js"></script>
 	</body>
 </html>
