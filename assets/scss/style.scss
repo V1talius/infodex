@@ -94,6 +94,15 @@ img {
 	height: auto;
 }
 
+.section-header {
+		text-align: center;
+		margin-bottom: 50px;
+
+
+		p {
+			padding: 0% 25%;
+		}
+	}
 
 .button {
 	background-color:  #1079F5;
@@ -1930,6 +1939,53 @@ img {
 		}
 
 	}
+}
+
+.section-22 {
+	padding: 80px 0px;
+
+	.team-content {
+		background: #F6F6F6;
+		border-radius: 5px;
+		margin-bottom: 30px;
+		padding: 35px 25px;
+
+		h4 {
+			margin-bottom: 20px;
+			font-weight: 600;
+			line-height: normal;
+			font-size: 24px;
+			color: #151515;	
+		}
+
+		&__info {
+			display: flex;
+			flex-direction: row;
+		}
+
+		&__location {
+			margin-right: 40px;
+
+			i {
+				margin-right: 5px;
+				line-height: 30px;
+				font-size: 20px;
+				letter-spacing: 0.1em;
+				text-transform: uppercase;
+				color: #1079F5;
+			}
+
+			span {
+				font-weight: 300;
+				color: #000000;
+			}
+		}
+
+	} 
+
+
+	
+
 
 
 
