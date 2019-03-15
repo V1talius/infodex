@@ -1983,14 +1983,66 @@ img {
 
 	} 
 
+}
 
-	
+.section-23 {
+	background-color: #202024;
+	padding: 80px 0px;
 
+	.motion {
+		background-color: #2c2c32;
+		margin-bottom: 30px;
+		border-radius: 4px;
 
+		img {
+			border-radius: 4px;
+		}
 
+		&__inner {
+			padding: 20px;
+			text-align: center;
 
+			.name {
+				color: white;
+				font-size: 18px;
+			}
 
+			p {
+				color: #f1f1f1;
+				font-size: 12px;
+				margin: 30px 0px;
+			}
+			a {
+				padding: 15px 100px;
+				text-transform: none;
 
+			}
+			.watch {
+				a {
+					padding: 15px 120px;
+					background-color: #70c7be;
+
+					&:hover {
+						opacity: 0.9;
+					}
+				}	
+			}
+			.style2 {
+				a {
+					background-color: #7f92cf;	
+				}
+			}
+
+			.style1 {
+				a {
+					background-color: #9d7ed0;	
+				}
+			}
+
+			
+		}
+
+	}
 }
 
 
