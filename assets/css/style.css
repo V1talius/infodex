@@ -1733,6 +1733,60 @@ img {
       .section-23 .motion__inner .style1 a {
         background-color: #9d7ed0; }
 
+.section-24 {
+  background-color: #f4f4f4;
+  padding: 100px 0px; }
+  .section-24 .section-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .section-24 .section-header h2:before {
+      content: none; }
+  .section-24 .main {
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    border-radius: 5px; }
+    .section-24 .main .images {
+      overflow: hidden;
+      border-radius: 5px; }
+      .section-24 .main .images img {
+        -webkit-transition: all 2s ease-out;
+        transition: all 2s ease-out;
+        position: relative; }
+        .section-24 .main .images img:hover {
+          -webkit-transform: scale(1.3);
+                  transform: scale(1.3); }
+    .section-24 .main h3 {
+      text-transform: uppercase;
+      color: #f2fbf7;
+      position: absolute;
+      left: 24%;
+      top: 22%; }
+    .section-24 .main__content {
+      padding: 40px; }
+      .section-24 .main__content p {
+        text-align: center;
+        margin-bottom: 30px;
+        color: #292921; }
+      .section-24 .main__content .more {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
+        .section-24 .main__content .more .button {
+          background-color: #ffffff;
+          color: #292921;
+          border: 2px solid  #292921;
+          padding: 15px 45px; }
+          .section-24 .main__content .more .button:hover {
+            color: #F55698;
+            border: 2px solid #F55698; }
+
 @-webkit-keyframes pulse-animation {
   0% {
     -webkit-box-shadow: 0 0 0 0 rgba(16, 121, 245, 0.3);
