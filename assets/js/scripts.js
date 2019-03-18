@@ -77,8 +77,6 @@ jQuery( document ).ready( function( $ ) {
 					'transform': 'rotate(' + randomR + 'deg)'
 				});
 			});
-
-			console.log('--------------------');
 	}
 
 	randomize();
