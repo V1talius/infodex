@@ -2138,6 +2138,149 @@ img {
 	}
 }
 
+.section-25 {
+	padding: 100px 0px;
+
+	.content {
+
+		&__inner {
+			margin-bottom: 70px;
+
+			.author {
+				margin-bottom: 20px;
+			}
+
+			.author-video {
+				position: relative;
+				margin-bottom: 20px;
+
+				.cover {
+					position: absolute;
+					display: flex;
+				    justify-content: center;
+				    align-items: center;
+					color: #FFFFFF;
+					width: 100%;
+					height: 100%;
+					top: 0;
+					left: 0;
+					font-size: 70px;
+
+				}
+			}
+
+			.posters {
+				background: #1079F5;
+				padding: 30px 20px 20px 25px;
+				margin-bottom: 70px;
+				position: relative;
+
+				h3 {
+					font-weight: 600;
+					font-size: 32px;
+					line-height: 45px;
+					color: #FFFFFF;
+					margin-bottom: 20px;
+				}
+
+				.name {
+					margin-left: 25px;
+					margin-bottom: 10px
+				}
+
+				a {
+					font-weight: 300;
+					font-size: 16px;
+					line-height: 24px;
+					color: #FFFFFF;
+				}
+
+				p {
+					font-weight: 600;
+					font-size: 24px;
+					line-height: 36px;
+					color: #FFFFFF;
+					margin: 0px 25px 10px 25px;
+				}
+
+				.icon {
+					position: absolute;
+					z-index: 1;
+					top: 0;
+					left: 25px;
+
+					i {
+						font-size: 80px;
+						line-height: 120px;
+						letter-spacing: 0.1em;
+						text-transform: uppercase;
+						color: rgba(255, 255, 255, 0.2);
+					}
+				}
+
+				.author-info {
+					margin-top: 20px;
+					margin-bottom: 0px;
+
+					&__inner {
+
+						i {
+							color: #FFFFFF;
+						}
+
+						span{
+							color: rgba(255, 255, 255, 0.6);
+						}
+					}
+				}
+			}
+
+			.gallery {
+
+				 img {
+					margin-bottom: 29px;
+				 }
+			}
+
+			.audio {
+				margin-bottom: 20px;
+
+				.controls {
+					width: 100%;
+				}
+			}
+
+			.author-info {
+				display: flex;
+				margin-bottom: 20px;
+
+				&__inner {
+					margin-right: 30px;
+				    display: flex;
+					align-items: flex-end;
+
+					i {
+						font-size: 20px;
+						line-height: 30px;
+						color: #1079F5;
+						margin-right: 7px;
+					}
+				}
+			}
+
+			.author-blog {
+
+			}
+		}
+	}
+
+
+
+
+
+
+}
+
 
 @keyframes pulse-animation {
 	0% {
