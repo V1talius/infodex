@@ -1937,6 +1937,43 @@ img {
     .section-25 .news-info .heading #sidebar ul {
       padding-left: 20px;
       list-style-image: url(./assets/images/12.png); }
+      .section-25 .news-info .heading #sidebar ul li {
+        color: #1079F5; }
+    .section-25 .news-info .heading .blog-item {
+      margin-bottom: 25px; }
+      .section-25 .news-info .heading .blog-item a {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 26px;
+        color: #1079F5; }
+      .section-25 .news-info .heading .blog-item p {
+        margin-top: 6px; }
+    .section-25 .news-info .heading .gallery {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-left: 15px; }
+      .section-25 .news-info .heading .gallery .gallery-item img {
+        padding: 0px 15px 15px 0px; }
+    .section-25 .news-info .heading .email {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .section-25 .news-info .heading .email input[type="email"] {
+        border: 1px solid #E7E7E7;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        border-radius: 5px;
+        width: 370px;
+        padding: 10px; }
+      .section-25 .news-info .heading .email button {
+        background: #1079F5;
+        border-radius: 5px;
+        padding: 0px 12px 0px; }
+        .section-25 .news-info .heading .email button i {
+          font-size: 18px;
+          line-height: 27px;
+          color: #FFFFFF; }
 
 @-webkit-keyframes pulse-animation {
   0% {

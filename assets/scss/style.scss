@@ -2325,6 +2325,58 @@ img {
 					padding-left: 20px;
 					list-style-image: url(./assets/images/12.png);
 
+					li {
+						color: #1079F5;
+					}
+
+				}
+			}
+
+			.blog-item {
+				margin-bottom: 25px;
+				a {
+					font-weight: 600;
+					font-size: 18px;
+					line-height: 26px;
+					color: #1079F5;
+				}
+				p { 
+					margin-top: 6px;
+				}
+			}
+			.gallery {
+				display: flex;
+				margin-left: 15px;
+
+				.gallery-item {
+					img {
+						padding: 0px 15px 15px 0px;
+					}
+
+				}
+			}
+
+			.email {
+				display: flex;
+
+				input[type="email"] {
+					border: 1px solid #E7E7E7;
+					box-sizing: border-box;
+					border-radius: 5px;
+					width: 370px;
+					padding: 10px;
+				}
+				
+				button {
+					background: #1079F5;
+					border-radius: 5px;
+					padding: 0px 12px 0px;
+
+					i {
+						font-size: 18px;
+						line-height: 27px;
+						color: #FFFFFF;
+					}
 				}
 			}
 
