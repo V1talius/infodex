@@ -115,4 +115,19 @@ jQuery( document ).ready( function( $ ) {
 
 	switchContent( 1 );
 
+	///// Video ///////
+
+	$('.author-video').each( function(){
+		var $this  = $( this ),
+			$cover = $( '.cover', $this ),
+			$video = $( 'video', $this );
+
+			$cover.on( 'click', function() {
+				$cover.fadeOut( 'fast', function() {
+					$( this ).remove();
+				} )
+				$video[0].play();
+			} );
+	});
+
 } );
